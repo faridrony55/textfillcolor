@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.banner{
+	background-image: url(https://cdn.pixabay.com/photo/2020/01/07/16/14/newborn-4748020_960_720.jpg);
+	min-height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000d9;
+	background-blend-mode: hue;
+	position: relative;
+}
+h1{
+	font-family: 'Fjalla One', sans-serif;
+	color: #fff;
+	font-size: 15em;
+	position: absolute;
+	text-align: center;
+	bottom: 50%; 
+	right: 50%;
+	transform: translate(50%,50%);
+	background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	transition: all 0.4s ease-in-out;
+
+
+  transition: all 0.5s linear;
+}
+
+h1:hover{
+	background-image: linear-gradient(180deg, #009efd 0%, #2af598 100%);
+
+  transition: all 0.5s linear;
+}
+/*482593528593853/permalink/1297079100478621/*/
